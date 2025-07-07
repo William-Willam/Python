@@ -1,0 +1,42 @@
+[
+    {
+        "NomeProfessor": "Alberto Aistinho",
+        "CpfProf": "12345678900",
+        "Materia": "F\u00edsica",
+        "Data_Nasc_Prof": "19/07/1979",
+        "MatriculaProf": "001",
+        "SenhaProf": "Alberto@123@"
+    },
+    {
+        "NomeProfessor": "Maria Antonieta Silva",
+        "CpfProf": "00011122233",
+        "Materia": "Hist\u00f3ria",
+        "Data_Nasc_Prof": "25/06/2000",
+        "MatriculaProf": "002",
+        "SenhaProf": "Maria@123"
+    },
+    {
+        "NomeProfessor": "Rafael Gon\u00e7alves",
+        "CpfProf": "20145685266",
+        "Materia": "Matem\u00e1tica",
+        "Data_Nasc_Prof": "12/11/1988",
+        "MatriculaProf": "003",
+        "SenhaProf": "Rafael@123"
+    },
+    {
+        "NomeProfessor": "Joelma Calipso",
+        "CpfProf": "78541296300",
+        "Materia": "Portugu\u00eas",
+        "Data_Nasc_Prof": "25/06/1992",
+        "MatriculaProf": "004",
+        "SenhaProf": "Joelma@123"
+    },
+    {
+        "NomeProfessor": "Julia Oliveira",
+        "CpfProf": "58287196300",
+        "Materia": "Tecnol\u00f3gia em Inform\u00e1tica",
+        "Data_Nasc_Prof": "25/09/1999",
+        "MatriculaProf": "005",
+        "SenhaProf": "Julia@123"
+    }
+]

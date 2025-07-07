@@ -1,0 +1,30 @@
+[
+    {
+        "nome": "William dos Santos Rodrigues",
+        "cpf": "01234567899",
+        "matricula": "0001",
+        "data_nasc": "20/01/1996",
+        "senha": "wsdr@123@"
+    },
+    {
+        "nome": "Gabriel Rodrigues dos Santos",
+        "cpf": "01234567800",
+        "matricula": "0002",
+        "data_nasc": "19/07/1999",
+        "senha": "Gabriel@123"
+    },
+    {
+        "nome": "Isabel Ana da Costa",
+        "cpf": "85296374100",
+        "matricula": "0003",
+        "data_nasc": "30/11/2003",
+        "senha": "Isabel@123"
+    },
+    {
+        "nome": "Naum Habacuque",
+        "cpf": "23658914701",
+        "matricula": "0004",
+        "data_nasc": "28/08/2001",
+        "senha": "Naum@123"
+    }
+]
