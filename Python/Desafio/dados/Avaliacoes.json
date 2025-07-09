@@ -14,5 +14,13 @@
         "materia": "Tecnol\u00f3gia em Inform\u00e1tica",
         "nota": 9,
         "comentario": "Tem dominio no conte\u00fado!"
+    },
+    {
+        "aluno": "William dos Santos Rodrigues",
+        "matricula_aluno": "0001",
+        "professor": "Joelma Calipso",
+        "materia": "Portugu\u00eas",
+        "nota": 5,
+        "comentario": "Professor mal educado"
     }
 ]

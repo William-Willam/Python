@@ -5,7 +5,7 @@
         "Materia": "F\u00edsica",
         "Data_Nasc_Prof": "19/07/1979",
         "MatriculaProf": "001",
-        "SenhaProf": "Alberto@123@"
+        "SenhaProf": "Albert@123@"
     },
     {
         "NomeProfessor": "Maria Antonieta Silva",
@@ -37,6 +37,22 @@
         "Materia": "Tecnol\u00f3gia em Inform\u00e1tica",
         "Data_Nasc_Prof": "25/09/1999",
         "MatriculaProf": "005",
-        "SenhaProf": "Julia@123"
+        "SenhaProf": "Julia@123@"
+    },
+    {
+        "NomeProfessor": "Blasitoise Lavorsie",
+        "CpfProf": "0258963488",
+        "Materia": "Biol\u00f3gia",
+        "Data_Nasc_Prof": "23/06/1978",
+        "MatriculaProf": "006",
+        "SenhaProf": "Blasitoise@123"
+    },
+    {
+        "NomeProfessor": "Pel\u00e9 Messi Ronaldo da Silva",
+        "CpfProf": "85698711122",
+        "Materia": "Educa\u00e7\u00e3o Fis\u00edca",
+        "Data_Nasc_Prof": "29/03/1976",
+        "MatriculaProf": "007",
+        "SenhaProf": "Pel\u00e9@123"
     }
 ]

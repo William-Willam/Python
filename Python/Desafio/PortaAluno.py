@@ -17,10 +17,6 @@ BancoProfessor = []
 bancoAvaliacoes = "../Desafio/dados/Avaliacoes.json"
 Avaliacoes = []
 
-# carrega o banco de notas
-bancoNotas = "../Desafio/dados/Notas.json"
-Notas = []
-
 if os.path.exists(bancoDados):
     with open(bancoDados, "r") as arquivo:
         BancoAluno = json.load(arquivo)
@@ -39,9 +35,6 @@ if os.path.exists(bancoAvaliacoes):
     with open(bancoAvaliacoes, "r") as arquivo:
         Avaliacoes = json.load(arquivo)
 
-if os.path.exists(bancoNotas):
-    with open(bancoNotas, "r") as arquivo:
-        Notas = json.load(arquivo)
 
 # Menu login do aluno
 print("=======================================================")
@@ -105,15 +98,22 @@ if aluno_encontrado:
         elif opcao == "2":
             os.system("cls")
             print("===================================================================")
-            print("|                   Visualizar Notas e Médias                     |")
+            print("|               Visualizar Notas, Médias e Faltas                |")
             print("===================================================================")
-            encontrou = False
-            for nota in Notas:
-                if nota["matricula"] == aluno_encontrado["matricula"]:
-                    encontrou = True
-                    print(f"Matéria: {nota['materia']} | Nota 1: {nota['nota1']} | Nota 2: {nota['nota2']} | Média: {nota['media']}")
-            if not encontrou:
-                print("Nenhuma nota registrada para você até o momento.")
+
+            if "notas" in aluno_encontrado and aluno_encontrado["notas"]:
+                for materia, dados in aluno_encontrado["notas"].items():
+                    print(f"\nMatéria: {materia}")
+                    print(f"Nota 1: {dados['nota1']}")
+                    print(f"Nota 2: {dados['nota2']}")
+                    print(f"Nota 3: {dados['nota3']}")
+                    print(f"Média: {dados['media']:.2f}")
+                    print(f"Faltas: {dados['faltas']}")
+                    print(f"Situação: {dados['situacao']}")
+                    print("-------------------------------------------------------------------")
+            else:
+                print("Nenhuma nota cadastrada ainda para você.")
+
 
         elif opcao == "3":
             os.system("cls")

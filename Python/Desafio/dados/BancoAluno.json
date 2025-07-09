@@ -4,27 +4,90 @@
         "cpf": "01234567899",
         "matricula": "0001",
         "data_nasc": "20/01/1996",
-        "senha": "wsdr@123@"
+        "senha": "wsdr@123@",
+        "nota1": 5.0,
+        "nota2": 3.0,
+        "nota3": 4.0,
+        "notas": {
+            "Tecnico em inform\u00e1tica": {
+                "nota1": 5.0,
+                "nota2": 6.0,
+                "nota3": 7.0,
+                "media": 6.0,
+                "situacao": "Reprovado",
+                "faltas": 5
+            },
+            "Fisica": {
+                "nota1": 8.0,
+                "nota2": 6.0,
+                "nota3": 9.0,
+                "media": 7.67,
+                "situacao": "Aprovado",
+                "faltas": 1
+            }
+        }
     },
     {
         "nome": "Gabriel Rodrigues dos Santos",
         "cpf": "01234567800",
         "matricula": "0002",
         "data_nasc": "19/07/1999",
-        "senha": "Gabriel@123"
-    },
-    {
-        "nome": "Isabel Ana da Costa",
-        "cpf": "85296374100",
-        "matricula": "0003",
-        "data_nasc": "30/11/2003",
-        "senha": "Isabel@123"
+        "senha": "Gabriel@123",
+        "nota1": 7.0,
+        "nota2": 8.0,
+        "nota3": 9.0,
+        "notas": {
+            "Tecnico em inform\u00e1tica": {
+                "nota1": 7.0,
+                "nota2": 8.5,
+                "nota3": 3.0,
+                "media": 6.17,
+                "situacao": "Reprovado",
+                "faltas": 18
+            },
+            "Fisixa": {
+                "nota1": 5.0,
+                "nota2": 6.0,
+                "nota3": 7.0,
+                "media": 6.0,
+                "situacao": "Reprovado",
+                "faltas": 12
+            }
+        }
     },
     {
         "nome": "Naum Habacuque",
         "cpf": "23658914701",
         "matricula": "0004",
         "data_nasc": "28/08/2001",
-        "senha": "Naum@123"
+        "senha": "Naum@123",
+        "nota1": 6.0,
+        "nota2": 7.0,
+        "nota3": 8.0,
+        "notas": {
+            "Tecnico em inform\u00e1tica": {
+                "nota1": 3.0,
+                "nota2": 9.0,
+                "nota3": 10.0,
+                "media": 7.33,
+                "situacao": "Reprovado",
+                "faltas": 18
+            },
+            "Fisica": {
+                "nota1": 1.0,
+                "nota2": 8.0,
+                "nota3": 8.8,
+                "media": 5.93,
+                "situacao": "Reprovado",
+                "faltas": 3
+            }
+        }
+    },
+    {
+        "nome": "Charizard Fonseca da Silva",
+        "cpf": "00122344799",
+        "matricula": "0005",
+        "data_nasc": "23/03/1998",
+        "senha": "Charizard@123"
     }
 ]
